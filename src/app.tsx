@@ -1,8 +1,8 @@
 import { lazy } from "react";
 import "./app.css";
 import { RouterProvider } from "react-router/dom";
-import { createHashRouter } from "react-router";
 import LoadingProvider from "./providers/loading-provider";
+import { createHashRouter } from "react-router";
 
 const Error = lazy(() => import("./pages/error"));
 const Home = lazy(() => import("./pages/home"));
@@ -15,11 +15,11 @@ const router = createHashRouter([
         path: "/",
         element: <Home />,
       },
-      {
-        path: "*",
-        element: <Error />,
-      },
     ],
+  },
+  {
+    path: "*",
+    element: <Error />,
   },
 ]);
 
