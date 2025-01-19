@@ -1,4 +1,4 @@
-import{j as i,a as e,m as t,c as s}from"./logo-PevRSxpX.js";import{N as a}from"./index-Dj3oWOZO.js";function m({error:n}){return i("div",{css:o,children:[e("img",{src:t,css:r,alt:"Error Page!",loading:"lazy"}),e("h3",{children:"404"}),e("p",{css:c,children:(n==null?void 0:n.message)??"The page you seek is in another castle. Keep exploring!"}),e(a,{to:"/",css:d,children:"Back"})]})}const o=s`
+import{j as i,a as e,m as t,c as s}from"./logo-o3YWQyS5.js";import{N as a}from"./index-Czi6g-84.js";function m({error:n}){return i("div",{css:o,children:[e("img",{src:t,css:r,alt:"Error Page!",loading:"lazy"}),e("h3",{children:"404"}),e("p",{css:c,children:(n==null?void 0:n.message)??"The page you seek is in another castle. Keep exploring!"}),e(a,{to:"/",css:d,children:"Back"})]})}const o=s`
   display: flex;
   flex-direction: column;
   align-items: center;
