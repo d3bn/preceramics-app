@@ -4,7 +4,7 @@ import { css } from "@emotion/react";
 import { FallbackProps } from "react-error-boundary";
 import { NavLink } from "react-router";
 
-import logoSvg from "/images/logo.svg";
+import logoSvg from "/logo.svg";
 
 function ErrorFound({ error }: Partial<FallbackProps>) {
   return (

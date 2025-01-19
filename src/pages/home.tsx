@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import mainLogo from "/images/logo.svg";
+import mainLogo from "/logo.svg";
 
 function Home() {
   return (
