@@ -1,5 +1,5 @@
 <template>
-  <main class="mx-10 md:mx-5 px-6 h-full">
+  <main class="lg:mx-10 mx-5 px-6 h-full">
     <section id="about" class="mb-20 pt-16 animate-fade-in-up">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 text-primary-light dark:text-primary-dark">Hi, I'm Precous Parreño
       </h1>
@@ -35,8 +35,8 @@
 
     <section id="about" class="mb-20 animate-fade-in-up" style="animation-delay: 0.2s;">
       <h2 class="text-3xl font-bold mb-8 text-primary-light dark:text-primary-dark">About</h2>
-      <div class="flex flex-row lg:flex-col gap-5">
-        <div class="flex justify-between gap-5">
+      <div class="flex flex-col gap-5">
+        <div class="flex sm:flex-col md:flex-col justify-between gap-5">
           <div class="flex-shrink">Art has always been more than a profession for Precious Grace G. Parreño—it’s a way
             of
             connecting with the world, of translating the raw elements of life into something tangible.
@@ -46,15 +46,15 @@
             beginning of her lifelong dedication to clay.</div>
 
           <div class="flex flex-row gap-5">
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/IMG_1156.PNG" class="h-full w-full object-cover object-center">
             </div>
 
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/IMG_1157.PNG" class="h-full w-full object-cover object-center">
             </div>
 
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/IMG_1158.PNG" class="h-full w-full object-cover object-center">
             </div>
           </div>
@@ -67,21 +67,21 @@
           patience, and respect to complete. “Making and thinking is one thing, but as you get deeper
           into ceramics, you realize that there are so many variables at play,” she reflects.</p>
 
-        <div class="flex justify-between gap-5">
+        <div class="flex  sm:flex-col md:flex-col  justify-between gap-5">
           <div class="flex-shrink">While her formal training introduced her to American-style pottery—a standard in
             Philippine
             ceramics education—it laid the groundwork for her eventual deep dive into the traditional
             techniques of Japan. What began as curiosity evolved into a decade-long journey.</div>
           <div class="flex flex-row gap-5">
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/helmet-1.png" class="h-full w-full object-cover object-center">
             </div>
 
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/helmet-2.png" class="h-full w-full object-cover object-center">
             </div>
 
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/helmet-3.png" class="h-full w-full object-cover object-center">
             </div>
           </div>
@@ -99,7 +99,7 @@
           perspectives.
         </p>
 
-        <div class="flex gap-5">
+        <div class="flex  sm:flex-col md:flex-col  gap-5">
           <p>Working in a mass-production setting specializing in traditional Bizen-style ceramics, she
             was often challenged by repetitive tasks that tested her creativity and patience. Yet, through
             this repetition, she gained technical precision, mental discipline, and a deeper understanding
@@ -107,15 +107,15 @@
             create sculptural work, she returned to her conceptual art roots—infusing them with the skill
             and discipline honed over years of practice.</p>
           <div class="flex flex-row gap-5">
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/scalpture-1.png" class="h-full w-full object-cover object-center">
             </div>
 
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/scalpture-2.png" class="h-full w-full object-cover object-center">
             </div>
 
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/scalpture-3.png" class="h-full w-full object-cover object-center">
             </div>
           </div>
@@ -128,21 +128,21 @@
           unrepeatable patterns that emerge naturally from the kiln. This process reflects her values:
           embracing imperfection, honoring tradition, and allowing nature to shape the final form.</p>
 
-        <div class="flex gap-5">
+        <div class="flex  sm:flex-col md:flex-col  gap-5">
           <p>What began as a love for food—and the idea of crafting her own plates—has evolved into a
             deeply personal practice rooted in sculpture. Today, her ceramic works explore identity,
             memory, and transformation, often taking form as expressive handbuilt pieces and
             self-portraits that connect her past and present.</p>
           <div class="flex flex-row gap-5">
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/human-1.png" class="h-full w-full object-cover object-center">
             </div>
 
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/human-2.png" class="h-full w-full object-cover object-center">
             </div>
 
-            <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+            <div class="h-64 w-44 overflow-hidden rounded-lgopacity-100">
               <img src="./../assets/human-3.png" class="h-full w-full object-cover object-center">
             </div>
           </div>
