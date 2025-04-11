@@ -36,7 +36,7 @@
     <section id="about" class="mb-20 animate-fade-in-up" style="animation-delay: 0.2s;">
       <h2 class="text-3xl font-bold mb-8 text-primary-light dark:text-primary-dark">About</h2>
       <div class="flex flex-col gap-5">
-        <div class="flex sm:flex-col md:flex-col justify-between gap-5">
+        <div class="flex flex-col md:flex-row justify-between gap-5">
           <div class="flex-shrink">Art has always been more than a profession for Precious Grace G. Parreño—it’s a way
             of
             connecting with the world, of translating the raw elements of life into something tangible.
@@ -67,7 +67,7 @@
           patience, and respect to complete. “Making and thinking is one thing, but as you get deeper
           into ceramics, you realize that there are so many variables at play,” she reflects.</p>
 
-        <div class="flex  sm:flex-col md:flex-col  justify-between gap-5">
+        <div class="flex flex-col md:flex-row justify-between gap-5">
           <div class="flex-shrink">While her formal training introduced her to American-style pottery—a standard in
             Philippine
             ceramics education—it laid the groundwork for her eventual deep dive into the traditional
@@ -99,7 +99,7 @@
           perspectives.
         </p>
 
-        <div class="flex  sm:flex-col md:flex-col  gap-5">
+        <div class="flex flex-col md:flex-row gap-5">
           <p>Working in a mass-production setting specializing in traditional Bizen-style ceramics, she
             was often challenged by repetitive tasks that tested her creativity and patience. Yet, through
             this repetition, she gained technical precision, mental discipline, and a deeper understanding
@@ -128,7 +128,7 @@
           unrepeatable patterns that emerge naturally from the kiln. This process reflects her values:
           embracing imperfection, honoring tradition, and allowing nature to shape the final form.</p>
 
-        <div class="flex  sm:flex-col md:flex-col  gap-5">
+        <div class="flex flex-col md:flex-row gap-5">
           <p>What began as a love for food—and the idea of crafting her own plates—has evolved into a
             deeply personal practice rooted in sculpture. Today, her ceramic works explore identity,
             memory, and transformation, often taking form as expressive handbuilt pieces and
