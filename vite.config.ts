@@ -12,6 +12,7 @@ export default defineConfig({
       minify: true,
     }),
   ],
+  assetsInclude: ['**/*.png', '**/*.PNG', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg'],
   server: {
     port: 3001,
   },
