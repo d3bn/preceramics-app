@@ -1,9 +1,13 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router"
+import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
 </script>
 
 <template>
-  <div class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 px-5 lg:px-30">
+  <Header />
+  <main class="px-5 py-4 h-full grow">
     <RouterView />
-  </div>
+  </main>
+  <Footer />
 </template>
