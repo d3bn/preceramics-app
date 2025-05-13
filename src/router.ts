@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import ROUTE from "./config/route";
 import Home from "./pages/Home.vue";
 import NotFound from "./pages/NotFound.vue";
+import Arts from "./pages/Arts.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,8 +16,8 @@ const router = createRouter({
       component: Home,
     },
     {
-      path: ROUTE.ART,
-      component: NotFound,
+      path: ROUTE.ARTS,
+      component: Arts,
     },
     {
       path: ROUTE.WORK,

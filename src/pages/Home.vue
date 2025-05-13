@@ -2,9 +2,10 @@
   <section id="about" class="mb-20 pt-16 flex flex-col gap-10 align-middle justify-center items-center">
     <img src="../assets/profile.png" loading="lazy" alt="Precious Parreño"
       class="rounded-full object-cover shadow-md w-100 h-100" />
-    <h1 class="text-4xl md:text-6xl font-bold mb-4 text-primary-light">Hi, I'm Precious Grace!
+    <h1 class="text-4xl md:text-6xl font-bold mb-3 text-primary-light">Hi, I'm Precious Grace!
     </h1>
-    <p class="text-xl mb-8">A ceramic artist</p>
+    <p class="text-xl mb-2">A ceramic artist</p>
+    <p class="text-lg text-primary mb-8 text-gray-700">Pottery / Sculpture / Molding / Paint</p>
     <div class="flex flex-col gap-5">
       <p>Art has always been more than a profession for Precious Grace G. Parreño—it’s a way
         of

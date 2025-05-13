@@ -2,7 +2,7 @@
 const ROUTE = {
   HOME: "/",
   WORK: "/work",
-  ART: "/art",
+  ARTS: "/arts",
 };
 
 export default ROUTE;

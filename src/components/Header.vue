@@ -9,12 +9,8 @@ const routes = [
     url: ROUTE.HOME,
   },
   {
-    name: "Work",
-    url: ROUTE.WORK,
-  },
-  {
-    name: "Art",
-    url: ROUTE.ART,
+    name: "Arts",
+    url: ROUTE.ARTS,
   },
 ];
 
@@ -23,7 +19,7 @@ const visibility = ref<boolean>(false);
 
 <template>
   <header class="flex justify-between align-center py-10 px-5">
-    <RouterLink :to="ROUTE.HOME" class="text-primary font-black uppercase">PreCeramics</RouterLink>
+    <RouterLink :to="ROUTE.HOME" class="text-primary font-black uppercase tracking-widest text-2xl">PreCeramics</RouterLink>
     <button type="button" aria-label="menu" @click="visibility = !visibility"
       class="group flex cursor-pointer items-center justify-center">
       <div class="space-y-2">
@@ -38,11 +34,11 @@ const visibility = ref<boolean>(false);
   <Teleport to="body">
     <div :class="{ hidden: visibility === false }" class="fixed h-full w-full z-10 top-0 bg-slate-800/50"
       @click.self="visibility = false">
-      <div class="bg-sky-500/90 p-9 relative w-[400px] float-end h-full shadow-lg transition-transform ease-in-out"
+      <div class="bg-blue-400 p-9 relative w-[400px] float-end h-full shadow-lg transition-transform ease-in-out"
         @dblclick.self="visibility = false">
-        <nav class="flex flex-col gap-3">
-          <RouterLink v-for="route in routes" :to="route.url" :class="{ 'text-gray-50': $route.path === route.url }"
-            class="text-primary font-bold tracking-3 text-1xl uppercase">
+        <nav class="flex flex-col gap-5">
+          <RouterLink v-for="route in routes" :to="route.url" :class="{ 'text-yellow-50': $route.path === route.url }"
+            class="text-primary font-medium tracking-widest text-2xl uppercase hover:text-yellow-50 hover:text-shadow-sm">
             {{ route.name }}
           </RouterLink>
         </nav>
