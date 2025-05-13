@@ -13,7 +13,7 @@
       <div class="lg:col-span-2 pt-8">
         <div class="flex-shrink-0">
           <div class="mx-auto ">
-            <img class="aspect-[4/3] object-cover shadow-md rounded-md" src="../assets/IMG_5855.png"
+            <img class="aspect-[4/3] object-contain md:object-cover shadow rounded-md " src="../assets/IMG_5855.png"
               alt="Embracing Myth and Tradition &mdash; Kappa Zodiac Sculptures">
             <div class="pt-10 flex flex-col gap-4">
               <h3 class="text-primary pb-3">Embracing Myth and Tradition: Kappa Zodiac Sculptures</h3>
