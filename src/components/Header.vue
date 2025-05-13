@@ -19,7 +19,7 @@ const visibility = ref<boolean>(false);
 
 <template>
   <header class="flex justify-between align-center py-10 px-5">
-    <RouterLink :to="ROUTE.HOME" class="text-primary font-black uppercase tracking-widest text-2xl">PreCeramics</RouterLink>
+    <RouterLink :to="ROUTE.HOME" class="text-primary font-black uppercase tracking-widest text-3xl">Pre Ceramics</RouterLink>
     <button type="button" aria-label="menu" @click="visibility = !visibility"
       class="group flex cursor-pointer items-center justify-center">
       <div class="space-y-2">
